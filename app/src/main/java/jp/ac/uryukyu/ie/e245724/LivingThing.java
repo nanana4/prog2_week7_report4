@@ -44,6 +44,14 @@ public abstract class LivingThing {
         return name;
     }
 
+    public int getHitPoint() {
+        return this.hitPoint;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
     /**
      * 攻撃を行うメソッドです。攻撃対象のキャラクターにランダムダメージを与えます。
      *
@@ -71,9 +79,4 @@ public abstract class LivingThing {
             System.out.printf("%sは倒れた。\n", name);  // 共通のメッセージ
         }
     }
-
-    public int getHitPoint() {
-        return this.hitPoint;
-    }
-    
 }
