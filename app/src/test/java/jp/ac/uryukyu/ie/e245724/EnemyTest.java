@@ -14,7 +14,7 @@ class EnemyTest {
      */
     @Test
     void attackTest() {
-        int defaultHeroHp = 100; // ヒーローの初期HP
+        int defaultHeroHp = 100; // ヒーローの初期HP  
         Hero demoHero = new Hero("デモ勇者", defaultHeroHp, 100); // ヒーロー生成
         Enemy slime = new Enemy("スライムもどき", 10, 100); // 敵生成
 
